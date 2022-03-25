@@ -123,35 +123,15 @@ $("pre code").html(function(index, html) {
 });
 
 
-var $el = $("#block");
-var elHeight = $el.outerHeight();
-var elWidth = $el.outerWidth();
-
-var $wrapper = $("#scaleable-wrapper");
-
-$wrapper.resizable({
-  resize: doResize
-});
-
-function doResize(event, ui) {
-
-  var scale, origin;
-
-  scale = Math.min(
-    ui.size.width / elWidth,
-    ui.size.height / elHeight
-  );
-
-  $el.css({
-    transform: "translate(-50%, -50%) " + "scale(" + scale + ")"
-  });
-
+function toggleViews() {
+    if ($('.outlineView').hasClass('d-none')) {
+        $('.outlineView').removeClass('d-none')
+    } else {
+        $('.outlineView').addClass('d-none')
+    }
+    if ($('.detailView').hasClass('d-none')) {
+        $('.detailView').removeClass('d-none')
+    } else {
+        $('.detailView').addClass('d-none')
+    }
 }
-
-var starterData = {
-  size: {
-    width: $wrapper.width(),
-    height: $wrapper.height()
-  }
-}
-doResize(null, starterData);
