@@ -138,8 +138,14 @@ function toggleViews() {
 
 function toggleTheme() {
     if ($('#rightPanel').hasClass('bg-dark')) {
-        $('#rightPanel').removeClass('bg-dark')
+        $('#rightPanel').removeClass('bg-dark text-white');
+        $('#rightPanel').addClass('text-blue');
+        $('#toggleCard').removeClass('text-dark');
+        $('#toggleCard').addClass('text-blue');
     } else {
-        $('#rightPanel').addClass('bg-dark')
+        $('#rightPanel').addClass('bg-dark text-white');
+        $('#rightPanel').removeClass('text-blue');
+        $('#toggleCard').removeClass('text-blue');
+        $('#toggleCard').addClass('text-dark');
     }
 }
