@@ -236,7 +236,7 @@ ul {
 
 }
 
-.carousel-indicators-numbers li:active, .carousel-indicators-numbers li:hover {
+.carousel-indicators-numbers li.active, .carousel-indicators-numbers li:hover {
     box-sizing: inherit !important;
     text-align: center !important;
     justify-content: center !important;
