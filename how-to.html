@@ -139,43 +139,43 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-6 col-12 offset-0 offset-lg-6 py-3 px-4" id="rightPanel">
+        <div class="col-lg-6 col-12 offset-0 offset-lg-6 py-3 px-4 text-blue" id="rightPanel">
             <div class="pb-5">
-                <small class="text-blue">v0.1 An interactive how-to template.</small>
-                <div class="card border-0 rounded-0 bg-light-gray p-2">
+                <small class="">v0.1 An interactive how-to template.</small>
+                <div class="card border-0 rounded-0 bg-light-gray p-2" id="toggleCard">
                     <div class="d-flex align-items-center">
                         <div class="form-check form-switch">
                             <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked"
                                    onchange="toggleViews();" checked>
                             <label class="form-check-label" for="flexSwitchCheckChecked"></label>
                         </div>
-                        <small class="ms-3 text-blue lh-15">Toggle between outline view and full information
+                        <small class="ms-3  lh-15">Toggle between outline view and full information
                             view</small>
                     </div>
                 </div>
-                <h1 class="display-6 fw-bold text-blue mt-4">
+                <h1 class="display-6 fw-bold  mt-4">
                     How to mint a token on the Polygon Network when you can’t code at all.
                 </h1>
-                <p class="text-blue mt-4">
+                <p class=" mt-4">
                     When you’re not a dev, making a random (possibly useless) fungible ERC20 token can seem impossible.
                     It nearly is impossible. But it can be done. Here are the steps I
                     <a href="https://www.youtube.com/watch?v=912IIPzm6Jc&feature=youtu.be" target="_blank"
-                       class="text-blue bg-green">copied from a dev</a>
-                    from the <a href="https://fweb3.xyz/" target="_blank" class="text-blue bg-green">$FWEB3
+                       class=" bg-green">copied from a dev</a>
+                    from the <a href="https://fweb3.xyz/" target="_blank" class=" bg-green">$FWEB3
                     game-to-learn project</a> (who did an awesome job explaining but left this or that out), plus a few
                     extra
                     steps for people like us who need to be told clearly that you have to install stuff, bridge stuff,
                     type
                     stuff...to make it happen.
                 </p>
-                <h4 class="text-blue mt-4">The Steps (v0.1)</h4>
+                <h4 class=" mt-4">The Steps (v0.1)</h4>
                 <div class="detailView d-none">
-                    <p class="text-blue mt-4">
+                    <p class=" mt-4">
                         <span class="">Prologue</span> | You’ll have to get $ETH. And $MATIC. And then
                         send
                         them over a “bridge.” Sorry. There’s no way around this.
                     </p>
-                    <p class="text-blue mt-4">
+                    <p class=" mt-4">
                         <span class="">Step 1</span> | Install MetaMask and add some coins.
                         (Everything in web3 is a transaction. In other words, costs and fees.
                         You will click, click, click “yes” / “confirm” to costs… a lot… in web3.)
@@ -183,25 +183,25 @@
                         Don’t skip the part where you are supposed to save (write down)
                         your keys and password.
                     </p>
-                    <p class="text-blue mt-4">
+                    <p class=" mt-4">
                         <span class="">Step 2</span> | Get $ETH and $MATIC from the Ethereum Mainnet
                         onto
                         the
                         Polygon Mainnet in the MetaMask wallet.
                         <a href="https://paper.dropbox.com/doc/Setup-and-Bridge-MATIC-4iMoLAXHUkyVkdOWCYjFD"
-                           class="text-blue bg-green" target="_blank">
+                           class=" bg-green" target="_blank">
                             (Oh, you’ll have to add that first.)</a>
                         The good news is that you don’t need a lot. Fifty dollars worth is probably too much.
                     </p>
-                    <p class="text-blue  mt-4">
+                    <p class="  mt-4">
                         <span class="">Step 3</span> | Install some random programs coders use. (…baby
                         versions of them anyway.) And some plugins that provide pre-written stuff about smart contracts.
                         <a href="https://code.visualstudio.com/download"
-                           class="text-blue bg-green" target="_blank">[Visual Studio Code]</a>-
+                           class=" bg-green" target="_blank">[Visual Studio Code]</a>-
                         <a href="https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity"
-                           class="text-blue bg-green" target="_blank">[Solidity Plugin]</a>-
+                           class=" bg-green" target="_blank">[Solidity Plugin]</a>-
                         <a href="https://marketplace.visualstudio.com/items?itemName=AzBlockchain.azure-blockchain"
-                           class="text-blue bg-green" target="_blank">[Blockchain Development Kit for Ethereum]</a>.
+                           class=" bg-green" target="_blank">[Blockchain Development Kit for Ethereum]</a>.
                         (…ok
                         so truthfully I’m not sure I actually “had to” do this part as I only end up copy pasting some
                         code
@@ -210,7 +210,7 @@
                         get
                         when VSCode can’t reference something. Maybe this could’ve been a text file. So there.)
                     </p>
-                    <p class="text-blue  mt-4">
+                    <p class="  mt-4">
                         <span class="">Step 4</span> | Make the contract. “Make” the contract
                         by copy/pasting some code, with your brilliant idea for a coin name.
                     </p>
@@ -235,69 +235,69 @@ contract GlymmerPolygonToken is ERC20 {
 </pre>
                         </div>
                     </div>
-                    <p class="text-blue  mt-4">
+                    <p class="  mt-4">
                         <span class="">Step 5</span> |
                         Go to <a
                             href="https://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.7+commit.e28d00a7.js"
-                            class="text-blue bg-green" target="_blank">Remix Ethereum</a>
+                            class=" bg-green" target="_blank">Remix Ethereum</a>
                         and mint the coin. See the transaction recording on PolygonScan.
                     </p>
-                    <p class="text-blue  mt-4">
+                    <p class="  mt-4">
                         <span class="">Step 6</span> | The token is on the blockchain.
                         Make it visible to the MetaMask wallet by using the “Import Token/Custom Token”
                         feature.
                     </p>
-                    <p class="text-blue  mt-4">
+                    <p class="  mt-4">
                         <span class="">Step 7</span> | (I dunno - share them?) Anyway, it’s complete.
                     </p>
-                    <p class="text-blue  mt-4">
+                    <p class="  mt-4">
                         <span class="">Epilogue</span> | I named my token “Glymmer” / $GLYMR since I
                         constantly
                         use an emoji that looks like one. ✨
                     </p>
-                    <p class="text-blue  mt-4">
+                    <p class="  mt-4">
                         I later found out that the word “gly” means a unit of a billion lightyears. Or an abbreviation
                         for a
                         sweet crystalline solid in biochemistry. Both sound random and shimmery. I like.
                     </p>
-                    <p class="text-blue  mt-4">
+                    <p class="  mt-4">
                         Anyway, this demo could be one of the world’s most
                         simplistic smart contracts so it probably has issues that
                         come with something not at all robust. But I would love to do something
                         with these tokens, like <a href="https://ninapilar.github.io/glymmer/"
-                                                   class="text-blue bg-green" target="_blank">make a $MATIC / $GLYMR
+                                                   class=" bg-green" target="_blank">make a $MATIC / $GLYMR
                         faucet</a>
                         or something.
                         We will see if I bother.
                     </p>
                 </div>
                 <div class="outlineView">
-                    <p class="text-blue  mt-4">
+                    <p class="  mt-4">
                         <span class="">Prologue</span> | Setup + expectations, acquiring coins for web3
                         transactions
                     </p>
-                    <p class="text-blue  mt-4">
+                    <p class="  mt-4">
                         <span class="">Step 1</span> | Install a Web3 Wallet
                     </p>
-                    <p class="text-blue  mt-4">
+                    <p class="  mt-4">
                         <span class="">Step 2</span> | Get to the Polygon Mainnet
                     </p>
-                    <p class="text-blue  mt-4">
+                    <p class="  mt-4">
                         <span class="">Step 3</span> | Install + Code
                     </p>
-                    <p class="text-blue  mt-4">
+                    <p class="  mt-4">
                         <span class="">Step 4</span> | Make the Contract
                     </p>
-                    <p class="text-blue  mt-4">
+                    <p class="  mt-4">
                         <span class="">Step 5</span> | Mint the Coin
                     </p>
-                    <p class="text-blue  mt-4">
+                    <p class="  mt-4">
                         <span class="">Step 6</span> | Make it Visible in Web3 Wallet
                     </p>
-                    <p class="text-blue  mt-4">
+                    <p class="  mt-4">
                         <span class="">Step 7</span> | Completion
                     </p>
-                    <p class="text-blue  mt-4">
+                    <p class="  mt-4">
                         <span class="">Epilogue</span> | Token Naming + Next Steps
                     </p>
                 </div>
