@@ -136,7 +136,6 @@ function toggleViews() {
     }
 }
 
-
 function toggleTheme() {
     if ($('#rightPanel').hasClass('bg-dark')) {
         $('#rightPanel').removeClass('bg-dark')
