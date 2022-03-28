@@ -305,8 +305,16 @@ contract GlymmerPolygonToken is ERC20 {
         </div>
         <footer class="footer mt-0 py-3 bg-blue fixed-bottom">
             <div class="container">
-                <small class="text-white ">v0.1 An interactive how-to template. An experiment of
+                <div class="d-flex align-items-center">
+                    <small class="text-white ">v0.1 An interactive how-to template. An experiment of
                     theCountess.eth.</small>
+                    <div class="form-check form-switch ms-auto">
+                        <input class="form-check-input" type="checkbox" id="id_toggleDarkTheme"
+                               onchange="toggleTheme();">
+                        <label class="form-check-label" for="id_toggleDarkTheme"></label>
+                    </div>
+                    <small class="ms-3 text-white lh-15">Toggle dark mode</small>
+                </div>
             </div>
         </footer>
     </div>

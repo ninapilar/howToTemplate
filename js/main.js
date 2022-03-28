@@ -135,3 +135,12 @@ function toggleViews() {
         $('.detailView').addClass('d-none')
     }
 }
+
+
+function toggleTheme() {
+    if ($('#rightPanel').hasClass('bg-dark')) {
+        $('#rightPanel').removeClass('bg-dark')
+    } else {
+        $('#rightPanel').addClass('bg-dark')
+    }
+}
