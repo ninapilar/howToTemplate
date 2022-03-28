@@ -28,6 +28,9 @@
     <link rel="stylesheet" href="css/main.css">
 
     <meta name="theme-color" content="#fafafa">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;600;700;800&display=swap');
+    </style>
 </head>
 <body>
 <div class="container-fluid">
@@ -45,7 +48,7 @@
                 </div>
                 <div class="offcanvas-body">
                     <div class="p-4">
-                        <div class="list-group list-group-flush fs-4">
+                        <div class="list-group list-group-flush fs-4 fw-bold">
                             <a href="index.html" class="list-group-item bg-dark text-green mb-3">Home</a>
                             <a href="#" class="list-group-item bg-dark text-green mb-3">How-to?</a>
                             <a href="about-us.html" class="list-group-item bg-dark text-green">About Us</a>
@@ -59,31 +62,31 @@
                 <!-- Indicators -->
                 <ol class="carousel-indicators carousel-indicators-numbers">
                     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active btnPrev">
-                        <span class="">P</span>
+                        <span class="indicator">P</span>
                     </li>
                     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
-                        <span class="">1</span>
+                        <span class="indicator">1</span>
                     </li>
                     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
-                        <span class="">2</span>
+                        <span class="indicator">2</span>
                     </li>
                     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3">
-                        <span class="">3</span>
+                        <span class="indicator">3</span>
                     </li>
                     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4">
-                        <span class="">4</span>
+                        <span class="indicator">4</span>
                     </li>
                     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5">
-                        <span class="">5</span>
+                        <span class="indicator">5</span>
                     </li>
                     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6">
-                        <span class="">6</span>
+                        <span class="indicator">6</span>
                     </li>
                     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7">
-                        <span class="">7</span>
+                        <span class="indicator">7</span>
                     </li>
                     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8">
-                        <span class="">E</span>
+                        <span class="indicator">E</span>
                     </li>
                 </ol>
                 <div class="carousel-inner text-center" style="vertical-align: middle">
@@ -137,7 +140,7 @@
         </div>
         <div class="col-lg-6 col-12 offset-0 offset-lg-6 py-3 px-4" id="rightPanel">
             <div class="pb-5">
-                <small class="font-executive-65 text-blue">v0.1 An interactive how-to template.</small>
+                <small class="text-blue">v0.1 An interactive how-to template.</small>
                 <div class="card border-0 rounded-0 bg-light-gray p-2">
                     <div class="d-flex align-items-center">
                         <div class="form-check form-switch">
@@ -149,10 +152,10 @@
                             view</small>
                     </div>
                 </div>
-                <h1 class="font-executive-65 display-6 fw-bold text-blue mt-4">
+                <h1 class="display-6 fw-bold text-blue mt-4">
                     How to mint a token on the Polygon Network when you can’t code at all.
                 </h1>
-                <p class="text-blue font-executive-45 mt-4">
+                <p class="text-blue mt-4">
                     When you’re not a dev, making a random (possibly useless) fungible ERC20 token can seem impossible.
                     It nearly is impossible. But it can be done. Here are the steps I
                     <a href="https://www.youtube.com/watch?v=912IIPzm6Jc&feature=youtu.be" target="_blank"
@@ -164,23 +167,23 @@
                     type
                     stuff...to make it happen.
                 </p>
-                <h4 class="font-executive-65 text-blue mt-4">The Steps (v0.1)</h4>
+                <h4 class="text-blue mt-4">The Steps (v0.1)</h4>
                 <div class="detailView d-none">
-                    <p class="text-blue font-executive-45 mt-4">
-                        <span class="font-executive-65">Prologue</span> | You’ll have to get $ETH. And $MATIC. And then
+                    <p class="text-blue mt-4">
+                        <span class="">Prologue</span> | You’ll have to get $ETH. And $MATIC. And then
                         send
                         them over a “bridge.” Sorry. There’s no way around this.
                     </p>
-                    <p class="text-blue font-executive-45 mt-4">
-                        <span class="font-executive-65">Step 1</span> | Install MetaMask and add some coins.
+                    <p class="text-blue mt-4">
+                        <span class="">Step 1</span> | Install MetaMask and add some coins.
                         (Everything in web3 is a transaction. In other words, costs and fees.
                         You will click, click, click “yes” / “confirm” to costs… a lot… in web3.)
                         Option: You can install an extension in Brave Browser (desktop).
                         Don’t skip the part where you are supposed to save (write down)
                         your keys and password.
                     </p>
-                    <p class="text-blue font-executive-45 mt-4">
-                        <span class="font-executive-65">Step 2</span> | Get $ETH and $MATIC from the Ethereum Mainnet
+                    <p class="text-blue mt-4">
+                        <span class="">Step 2</span> | Get $ETH and $MATIC from the Ethereum Mainnet
                         onto
                         the
                         Polygon Mainnet in the MetaMask wallet.
@@ -189,8 +192,8 @@
                             (Oh, you’ll have to add that first.)</a>
                         The good news is that you don’t need a lot. Fifty dollars worth is probably too much.
                     </p>
-                    <p class="text-blue font-executive-45 mt-4">
-                        <span class="font-executive-65">Step 3</span> | Install some random programs coders use. (…baby
+                    <p class="text-blue  mt-4">
+                        <span class="">Step 3</span> | Install some random programs coders use. (…baby
                         versions of them anyway.) And some plugins that provide pre-written stuff about smart contracts.
                         <a href="https://code.visualstudio.com/download"
                            class="text-blue bg-green" target="_blank">[Visual Studio Code]</a>-
@@ -206,8 +209,8 @@
                         get
                         when VSCode can’t reference something. Maybe this could’ve been a text file. So there.)
                     </p>
-                    <p class="text-blue font-executive-45 mt-4">
-                        <span class="font-executive-65">Step 4</span> | Make the contract. “Make” the contract
+                    <p class="text-blue  mt-4">
+                        <span class="">Step 4</span> | Make the contract. “Make” the contract
                         by copy/pasting some code, with your brilliant idea for a coin name.
                     </p>
                     <div class="scaleable-wrapper" id="scaleable-wrapper">
@@ -231,32 +234,32 @@ contract GlymmerPolygonToken is ERC20 {
 </pre>
                         </div>
                     </div>
-                    <p class="text-blue font-executive-45 mt-4">
-                        <span class="font-executive-65">Step 5</span> |
+                    <p class="text-blue  mt-4">
+                        <span class="">Step 5</span> |
                         Go to <a
                             href="https://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.7+commit.e28d00a7.js"
                             class="text-blue bg-green" target="_blank">Remix Ethereum</a>
                         and mint the coin. See the transaction recording on PolygonScan.
                     </p>
-                    <p class="text-blue font-executive-45 mt-4">
-                        <span class="font-executive-65">Step 6</span> | The token is on the blockchain.
+                    <p class="text-blue  mt-4">
+                        <span class="">Step 6</span> | The token is on the blockchain.
                         Make it visible to the MetaMask wallet by using the “Import Token/Custom Token”
                         feature.
                     </p>
-                    <p class="text-blue font-executive-45 mt-4">
-                        <span class="font-executive-65">Step 7</span> | (I dunno - share them?) Anyway, it’s complete.
+                    <p class="text-blue  mt-4">
+                        <span class="">Step 7</span> | (I dunno - share them?) Anyway, it’s complete.
                     </p>
-                    <p class="text-blue font-executive-45 mt-4">
-                        <span class="font-executive-65">Epilogue</span> | I named my token “Glymmer” / $GLYMR since I
+                    <p class="text-blue  mt-4">
+                        <span class="">Epilogue</span> | I named my token “Glymmer” / $GLYMR since I
                         constantly
                         use an emoji that looks like one. ✨
                     </p>
-                    <p class="text-blue font-executive-45 mt-4">
+                    <p class="text-blue  mt-4">
                         I later found out that the word “gly” means a unit of a billion lightyears. Or an abbreviation
                         for a
                         sweet crystalline solid in biochemistry. Both sound random and shimmery. I like.
                     </p>
-                    <p class="text-blue font-executive-45 mt-4">
+                    <p class="text-blue  mt-4">
                         Anyway, this demo could be one of the world’s most
                         simplistic smart contracts so it probably has issues that
                         come with something not at all robust. But I would love to do something
@@ -268,40 +271,40 @@ contract GlymmerPolygonToken is ERC20 {
                     </p>
                 </div>
                 <div class="outlineView">
-                    <p class="text-blue font-executive-45 mt-4">
-                        <span class="font-executive-65">Prologue</span> | Setup + expectations, acquiring coins for web3
+                    <p class="text-blue  mt-4">
+                        <span class="">Prologue</span> | Setup + expectations, acquiring coins for web3
                         transactions
                     </p>
-                    <p class="text-blue font-executive-45 mt-4">
-                        <span class="font-executive-65">Step 1</span> | Install a Web3 Wallet
+                    <p class="text-blue  mt-4">
+                        <span class="">Step 1</span> | Install a Web3 Wallet
                     </p>
-                    <p class="text-blue font-executive-45 mt-4">
-                        <span class="font-executive-65">Step 2</span> | Get to the Polygon Mainnet
+                    <p class="text-blue  mt-4">
+                        <span class="">Step 2</span> | Get to the Polygon Mainnet
                     </p>
-                    <p class="text-blue font-executive-45 mt-4">
-                        <span class="font-executive-65">Step 3</span> | Install + Code
+                    <p class="text-blue  mt-4">
+                        <span class="">Step 3</span> | Install + Code
                     </p>
-                    <p class="text-blue font-executive-45 mt-4">
-                        <span class="font-executive-65">Step 4</span> | Make the Contract
+                    <p class="text-blue  mt-4">
+                        <span class="">Step 4</span> | Make the Contract
                     </p>
-                    <p class="text-blue font-executive-45 mt-4">
-                        <span class="font-executive-65">Step 5</span> | Mint the Coin
+                    <p class="text-blue  mt-4">
+                        <span class="">Step 5</span> | Mint the Coin
                     </p>
-                    <p class="text-blue font-executive-45 mt-4">
-                        <span class="font-executive-65">Step 6</span> | Make it Visible in Web3 Wallet
+                    <p class="text-blue  mt-4">
+                        <span class="">Step 6</span> | Make it Visible in Web3 Wallet
                     </p>
-                    <p class="text-blue font-executive-45 mt-4">
-                        <span class="font-executive-65">Step 7</span> | Completion
+                    <p class="text-blue  mt-4">
+                        <span class="">Step 7</span> | Completion
                     </p>
-                    <p class="text-blue font-executive-45 mt-4">
-                        <span class="font-executive-65">Epilogue</span> | Token Naming + Next Steps
+                    <p class="text-blue  mt-4">
+                        <span class="">Epilogue</span> | Token Naming + Next Steps
                     </p>
                 </div>
             </div>
         </div>
         <footer class="footer mt-0 py-3 bg-blue fixed-bottom">
             <div class="container">
-                <small class="text-white font-executive-45">v0.1 An interactive how-to template. An experiment of
+                <small class="text-white ">v0.1 An interactive how-to template. An experiment of
                     theCountess.eth.</small>
             </div>
         </footer>
