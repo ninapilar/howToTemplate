@@ -143,10 +143,14 @@ function toggleTheme() {
         $('#rightPanel').addClass('text-blue');
         $('#toggleCard').removeClass('text-dark');
         $('#toggleCard').addClass('text-blue');
+        $('#howToFooter').removeClass('bg-dark border-top border-white border-1');
+        $('#howToFooter').addClass('bg-blue');
     } else {
         $('#rightPanel').addClass('bg-dark text-white');
         $('#rightPanel').removeClass('text-blue');
         $('#toggleCard').removeClass('text-blue');
         $('#toggleCard').addClass('text-dark');
+        $('#howToFooter').removeClass('bg-blue');
+        $('#howToFooter').addClass('bg-dark border-top border-white border-1');
     }
 }
