@@ -46,16 +46,20 @@ function toggleTheme() {
     if ($('#rightPanel').hasClass('bg-dark')) {
         $('#rightPanel').removeClass('bg-dark text-white');
         $('#rightPanel').addClass('text-blue');
-        $('#toggleCard').removeClass('text-dark');
-        $('#toggleCard').addClass('text-blue');
+        $('#toggleCard').removeClass('text-white bg-dark boder border-1 border-white');
+        $('#toggleCard').addClass('text-blue bg-light-gray border-0');
         $('#howToFooter').removeClass('bg-dark border-top border-white border-1');
         $('#howToFooter').addClass('bg-blue');
+        $('#scaleable-wrapper').addClass('bg-light-gray text-blue');
+        $('#scaleable-wrapper').removeClass('bg-dark text-white border border-1 border-white');
     } else {
         $('#rightPanel').addClass('bg-dark text-white');
         $('#rightPanel').removeClass('text-blue');
-        $('#toggleCard').removeClass('text-blue');
-        $('#toggleCard').addClass('text-dark');
+        $('#toggleCard').removeClass('text-blue bg-light-gray border-0');
+        $('#toggleCard').addClass('text-white bg-dark border border-1 border-white');
         $('#howToFooter').removeClass('bg-blue');
         $('#howToFooter').addClass('bg-dark border-top border-white border-1');
+        $('#scaleable-wrapper').removeClass('bg-light-gray text-blue');
+        $('#scaleable-wrapper').addClass('bg-dark text-white border border-1 border-white');
     }
 }
